@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efitty</title>
+
+    <script src='https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css'>
+    <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css'>
+
+    <link rel='stylesheet' type='text/css' href='bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-sm-12 text-center content'>
+                                <br>
+                <form name='mojaforma' class='tabela'>
+                    <h2>Registracija korisnika</h2>
+                    <table>
+                        <tr>
+                            <td>Korisnicko ime:</td>
+                            <td>
+                                <input type="text" name='korime'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lozinka: </td>
+                            <td>
+                                <input type="password" name='lozinka1'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ponovite lozinku: </td>
+                            <td>
+                                <input type="password" name='lozinka2'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ime:</td>
+                            <td>
+                                <input type='text' name='ime'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Prezime:</td>
+                            <td>
+                                <input type='text' name='prezime'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>E-mail:</td>
+                            <td>
+                                <input type='text' name='email'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tip korisnika:</td>
+                            <td>
+                                <select name='tip'>
+                                    <option>Gojazna osoba</option>
+                                    <option>Sportista</option>
+                                    <option>Specijalista</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Datum rodjenja (u formatu dd/mm/yyyy):</td>
+                            <td>
+                                <input type='text' name='datum'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Broj telefona (u formatu 06X/XXXX-XXX):</td>
+                            <td>
+                                <input type='text' name='tel'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type='button' value='Registruj se' 
+                                class='dugme' onclick='proveri()'>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <br>
+                <h4>"Nikada nisi prestar da sebi postavis jos jedan cilj ili da sanjas jos jedan san!"</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row removePadding">
+            <img src='slike/tocak-promene.jpg' class='header-image' style="margin-left: 35%; margin-right: 20%;" width="30%">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

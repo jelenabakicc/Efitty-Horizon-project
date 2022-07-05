@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efitty</title>
+
+    <script src='https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css'>
+    <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css'>
+
+    <link rel='stylesheet' type='text/css' href='bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-sm-12 text-center content'>
+                <br>
+                <br>
+                <form name='formaprijava' class="tabela">
+                    
+                    <h2>Prijava korisnika</h2>
+                    <table>
+                        <tr>
+                            <td>Korisnicko ime:</td>
+                            <td>
+                                <input type="text" name='kor'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lozinka: </td>
+                            <td>
+                                <input type="password" name='lozinka'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type='button' value='Prijavi se' class='dugme' onclick='prijava()'>
+                            </td>
+                            <td colspan="2">
+                                <a id='link' href="korisnik.html" target="_parent">Moj profil</a>
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+            <br>
+            <div class='col-sm-12 text-center content'>
+                <h4>"Jedini neuspeh je odustajanje."</h4>
+            </div>
+        </div>
+        
+        <div class="row">
+            <img src='slike/trcanje.jpg' class="header-image" style="margin-left: 35%; margin-right: 20%;" width="30%"> 
+        </div>
+    </div>
+</body>
+</html>
